@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos-lign content</title>
+        <style>
+            .container{
+                height: 350px;
+                max-width: 300px;
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid black;
+            }
+            .item{
+                background-color: orangered;
+                padding: 0 5px;
+                margin: 5px;
+                flex: 1;
+                text-align: center;
+                color: white;
+                border: 2px solid black;
+            }
+            .stretch{
+                align-content: stretch;
+            }
+            .center{
+                align-content: center;
+            }
+            .flex-start{
+                align-content: flex-start;
+            }
+            .flex-end{
+                align-content: flex-end;
+            }
+            .space-around{
+                align-content: space-around;
+            }
+            .space-between{
+                align-content: space-between;
+            }
+        </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">rodrigo aparecido domingues curso de c</div>
+        <div class="item">rodrigo aparecido </div>
+        <div class="item">rodrigo aparecido dntander na dio muito showwwww</div>
+        <div class="item">rodss ddo domingues curso de css do santander na dio muito showwwww</div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">rodrigo aparecido domingues curso de c</div>
+        <div class="item">rodrigo aparecido </div>
+        <div class="item">rodrigo aparecido domingr na dio muito showwwww</div>
+        <div class="item">rodrigo  css ddo domingues curso de css do santander na dio muito showwwww</div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+    </div>
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">rodrigo aparecido domingues curso de c</div>
+        <div class="item">rodrigo aparecido </div>
+        <div class="item">rodrigo aparecido domingr na dio muito showwwww</div>
+        <div class="item">rodrigo  css ddo domi muito showwwww</div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+    </div>
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">rodrigo aparecido domingues curso de c</div>
+        <div class="item">rodrigo aparecido </div>
+        <div class="item">rodrigo aparecido domingr na dio muito showwwww</div>
+        <div class="item">rodrigo  css ddo domi muito showwwww</div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+    </div>
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">rodrigo aparecido domingues curso de c</div>
+        <div class="item">rodrigo aparecido </div>
+        <div class="item">rodrigo aparecido domingr na dio muito showwwww</div>
+        <div class="item">rodrigo  css ddo domi muito showwwww</div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+    </div>
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">rodrigo aparecido domingues curso de c</div>
+        <div class="item">rodrigo aparecido </div>
+        <div class="item">rodrigo aparecido domingr na dio muito showwwww</div>
+        <div class="item">rodrigo  css ddo domi muito showwwww</div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+        <div class="item">rodrigo aparecido domingues </div>
+    </div>
+</body>
+</html>
