@@ -3,7 +3,7 @@ function verificaPalindromo(string) {
 	if (!string) return;
 	console.log(string === string.split('').reverse().join(''));
 }
-verificaPalindromo('cat');
+verificaPalindromo('ovo');
 
 // solução 2
 
@@ -19,4 +19,4 @@ function varificaPalindromo2(string) {
 	return console.log(true);
 }
 
-varificaPalindromo2('asa');
+varificaPalindromo2('rodrigo');
